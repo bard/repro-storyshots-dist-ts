@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@storybook/addon-storyshots": "6.0.0-beta.38",
+    "ts-jest": "^26.1.1"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "typescript": "^3.9.5"
+  },
+  "jest": {
+    "testRegex": "\\.(test|spec)\\.(j|t)sx?$",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
+  }
+}
